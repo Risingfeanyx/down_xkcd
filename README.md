@@ -1,5 +1,5 @@
 # down_xkcd
-a simple bash script to pull xkcd from the internet archive 
+a simple bash script to pull xkcd from the internet archive. pulls Volume 0 as well
 
 ```
 (
