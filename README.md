@@ -1,6 +1,7 @@
 # down_xkcd
 a simple bash script to pull xkcd from the internet archive 
 
+```
 (
 clear
 wget -nc https://archive.org/download/2009Xkcd/2009_xkcd.pdf&
@@ -10,3 +11,4 @@ cd xkcd
 convert *.png xkcd_$(date +%F).pdf
 open xkcd_$(date +%F).pdf
 )
+```
